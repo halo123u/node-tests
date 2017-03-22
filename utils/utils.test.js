@@ -11,10 +11,23 @@ it('should add two numbers', () => {
     // }
 });
 
+it('should async add two numbers', (done)=>{
+    utils.asyncAdd(4,3,(sum)=>{
+        expect(sum).toBe(7).toBeA('number');
+        done();
+    })
+});
+
 it('should square one number', () =>{
     var res = utils.square(10);
     
     expect(res).toBe(100).toBeA('number');
+});
+it('should async square a number',(done)=>{
+    utils.asyncsquare(10 ,(square) =>{  
+        expect(square).toBe(100).toBeA('number');
+        done();
+    });
 });
 
 // it('should expect some values',()=>{
