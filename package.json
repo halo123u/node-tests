@@ -1,0 +1,23 @@
+{
+  "name": "node-tests",
+  "version": "1.0.0",
+  "description": "testing on node.js",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha **/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halo123u/node-tests.git"
+  },
+  "author": "Oswaldo Almazo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/halo123u/node-tests/issues"
+  },
+  "homepage": "https://github.com/halo123u/node-tests#readme"
+}
